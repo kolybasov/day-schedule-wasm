@@ -1,0 +1,13 @@
+[package]
+name = "events-matrix"
+version = "0.1.0"
+authors = ["Mykola Basov <kolybasov@gmail.com>"]
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+
+[dev-dependencies]
+pretty_assertions = "0.5.1"
