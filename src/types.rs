@@ -62,7 +62,9 @@ impl<'a> HTMLElement<'a> {
     }
 
     pub fn append_child<T: 'a>(&mut self, el: T)
-        where T:Display {
+    where
+        T: Display,
+    {
         self.body.push(Box::new(el));
     }
 }
